@@ -1,4 +1,3 @@
-# MOST OF THE FUNCTIONS WERE DONE BY MYSELF / COMPLICATED ONES WERE ANALIZED IN SOLUTION
 
 # Biggie Size - Given a list, write a function that changes all positive numbers in the list to "big".
 # Example: biggie_size([-1, 3, 5, -5]) returns that same list, but whose values are now [-1, "big", "big", -5]
@@ -97,7 +96,7 @@ print(my_max([3,999,0,-80,1]))
 # Example: ultimate_analysis([37,2,1,-9]) should return {'sumTotal': 31, 'average': 7.75, 'minimum': -9, 'maximum': 37, 'length': 4 }
 
 def ult_analysis(lst):
-    big = {       # short way to express list / array 
+    big = {       
         "sum": None,
         "min": None,
         "max": None,
